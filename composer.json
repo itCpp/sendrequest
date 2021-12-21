@@ -1,0 +1,17 @@
+{
+    "name": "itcpp/sendrequest",
+    "description": "Add request from site",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itcpp\\Sendrequest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dimanok1989",
+            "email": "kolgaev@gmail.com"
+        }
+    ],
+    "require": {}
+}
