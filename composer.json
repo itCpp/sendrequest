@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Itcpp\\Sendrequest\\": "src/"
+            "ItCpp\\Sendrequest\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,17 @@
             "email": "kolgaev@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "illuminate/http": "^8.76",
+        "illuminate/database": "^8.76",
+        "laravel/framework": "^8.76"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ItCpp\\Sendrequest\\Providers\\SendrequestServiceProvider"
+            ]
+        }
+    }
 }
